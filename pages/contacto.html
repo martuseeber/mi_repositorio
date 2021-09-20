@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es un sitio dedicado al Coro Santoto del Colegio Santo Tomás de Aquino donde vas a encontrar informcación acerca de los eventos, integrantes, fechas y mucho más.">
+    <meta name="keywords"  content="coro, colegio, director, integrantes, eventos, cantantes, instrumentos, canciones">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">   
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap" rel="stylesheet">
+    <title>CST | Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light" aria-label="navbar" style="background-color: white;">
+            <div class="container-fluid">
+                <a class="navbar-brand" title="Logo" href="index.Seeber.html"><img src="../img/logo.jpg" width="37%" class="logo" alt="logo de la página"></a>
+                <div>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.Seeber.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./eventos.html">eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./integrantes.html">integrantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./calendario.html">calendario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">contacto</a>
+                        </li>
+                    </ul>                
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main> 
+        <h1 class="contacto__titulo">Contacto</h1>
+        <section class="contacto__section">
+            <div>
+                <form action="" method="POST" class="fomulario">
+                    <fieldset class="formulario__fieldset">
+                        <legend style="font-weight: bold; font-size: x-large;color: rgb(95,95,78);"><b>Envía tu consulta</b></legend>
+                        <p>
+                            <label for="Nombre">Nombre:</label>
+                            <input type="text" name="Nombre" id="Nombre" required>
+                        </p>
+                        <p>
+                            <label for="Apellido" name="Apellido" name="Apellido">Apellido:</label>
+                            <input type="text" name="Apellido" id="Apellido" required>
+                        </p>
+                        <p>
+                            <label for="DNI" name="DNI" id="DNI">DNI:</label>
+                            <input type="number" name="DNI" id="DNI">
+                        </p>
+                        <p>
+                            <label for="email" name="email" id="email">Email:</label>
+                            <input type="email" name="email" id="email" required placeholder="ejemplo@sitio.com">
+                        </p>
+                        <p>
+                            <label for="Teléfono" name="Teléfono" id="Teléfono">Teléfono:</label>
+                            <input type="number" name="Teléfono" id="Teléfono">
+                        </p>
+                        <p>
+                            Consulta:
+                            <br><textarea name="Consulta" id="Consulta" cols="30" rows="10" placeholder="Escriba su consulta aquí..."></textarea>
+                        </p>
+                            <br>Género:
+                        <p>
+                            <input type="checkbox" name="Masculino" id="Masculino">
+                            <label for="Masculino" name="Masculino" id="Masculino">Masculino</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="Femenino" id="Femenino">
+                            <label for="Femenino" name="Femenino" id="Femenino">Femenino</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="Otro" id="Otro">
+                            <label for="Otro" name="Otro" id="Otro">Otro</label>
+                        <p class="botones">
+                            <input type="reset" value="Borrar todo">
+                            <input type="submit" value="Enviar">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <div>
+                <img src="../img/foto.contacto.jpg" class="contacto__foto" alt="El coro luego de una misa">
+            </div>
+        </section>
+    </main>           
+    <footer>
+        <a title="Instagram" href="https://www.instagram.com/corosantoto/?hl=es-la" target="blank" class="linkRedes"><img src="../img/instagram.png" alt="Instagram" width="50" height="50" class="linkRedes"></a>    
+        <a title="Facebook" href="https://www.facebook.com/coro.santoto.3" target="blank" class="linkRedes"><img src="../img/facebook.png" alt="Facebook" width="50" height="50" class="linkRedes"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
+

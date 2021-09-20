@@ -1,0 +1,592 @@
+/*GENERAL*/
+*{
+    margin: 0cm;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: 'Heldane',serif;;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    font-size: 0.8rem;
+    font-family: 'Fabriga',sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(132, 162, 218);
+}
+footer{
+    justify-items: end;
+    padding: 0.1cm;
+    grid-area: footer;
+}
+/*HOME*/
+.mainIndex0{
+    display: grid;
+    grid-template-rows: 1.5fr 0.75fr 0.5fr 0.25fr;
+    grid-template-columns: 1fr;
+}
+
+.divIndex2{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 0.25cm;
+
+}
+.divIndex2__titulo{
+    text-align: center;
+    font-size: 12mm;
+    padding-top: 2.75cm;
+    font-family: 'Heldane',serif;
+    color: rgb(116, 116, 98);
+    background-color: rgb(247, 247, 245);
+    margin-bottom: 0.25cm;
+}
+.divIndex2__texto{
+    padding: 0.75cm 0.25cm 0.75cm 0.25cm; 
+    line-height: 0.75cm;
+    font-family: 'Heldane',serif;
+    text-align: center;
+    font-size: 6mm;
+    background-color: rgb(247, 247, 245);
+    margin-bottom: 0.25cm;
+}
+.divIndex3__texto{
+    text-align: center;
+    font-size: 10mm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    font-family: 'Heldane',serif;
+    font-weight: bold;
+    margin-bottom: 0cm;
+    animation-duration: 2s;
+    animation-name: fadeInDown;
+}
+.divIndex4{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(247, 247, 245);
+}
+.divIndex4__texto{
+    text-align: center;
+    padding-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+/*EVENTOS*/
+.eventos{
+    font-size: 10mm;
+    padding-left: 0.5cm;
+    color: rgb(44, 44, 36);
+    box-sizing: content-box;
+    background-color: rgb(199, 199, 187);
+}
+.section1{
+    margin: 10px;
+    margin-top: 0cm;
+}
+.card{
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+    font-size: 9.5mm;
+    padding-top: 0.5cm;
+    color: rgb(78, 78, 64);
+}
+.card-text{
+    text-align: center;
+    padding-top: 1cm;
+}
+/*INTEGRANTES*/
+.integrantes{
+    font-size: 10mm;
+    padding-left: 0.5cm;
+    color: rgb(44, 44, 36);
+    box-sizing: content-box;
+    background-color: rgb(199, 199, 187);
+}
+/*explicación*/
+.integrantes__explicacion{
+    padding: 0.5cm 0.35cm 1cm 0.35cm; 
+    line-height: 0.75cm;
+    font-family: 'Heldane',serif;
+    text-align: center;
+    font-size: 4mm;
+}
+/*titulos*/
+.mesaChica__titulo{
+    font-size: 8mm;
+    text-align: center;
+    color: rgb(68, 68, 56);
+    background-color: rgb(247, 247, 245);
+    box-sizing: border-box;
+}
+.cuerdas__titulo{
+    font-size: 8mm;
+    text-align: center;
+    color: rgb(68, 68, 56);
+    background-color: rgb(247, 247, 245);
+    box-sizing: border-box;
+}
+/*img mesa chica*/
+.mesaChica__imágenes0{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 1cm;
+}
+/*Cuerdas*/
+.cuerdas__subtitulo{
+    font-size: 6.75mm;
+    text-align:center;
+    color: rgb(78, 78, 64);
+    padding-top: 1.5cm;
+}
+.cuerdas__div{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.75fr 1fr;
+}
+.cuerdas__imágenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+/*CONTACTO*/
+.contacto__titulo{
+    font-size: 10mm;
+    padding-left: 0.5cm;
+    color: rgb(44, 44, 36);
+    box-sizing: content-box;
+    background-color: rgb(199, 199, 187);
+}
+.contacto__section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.formulario__fieldset{
+    margin-left: 0.5cm;
+    line-height: 0.45cm;
+    background-color: rgb(247, 247, 245);
+    width: 90%;
+    height: 16.8cm;
+    padding-right: 3cm;
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+}
+.contacto__foto{
+    margin-right: 0.02cm;
+    margin-top: 0.2cm;
+    height: 16.7cm;
+    width: 27.7cm;
+}
+
+/*CALENDARIO*/
+.calendario__titulo{
+    font-size: 10mm;
+    padding-left: 0.5cm;
+    color: rgb(44, 44, 36);
+    box-sizing: content-box;
+    background-color: rgb(199, 199, 187);
+}
+.calendario__div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin-top: 0.2cm;
+}
+/*MOBILE FIRST*/
+@media (max-width:450px) {
+    /*GENERAL*/
+    .nav-link{
+        padding: 0.25cm;
+        color: black;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.63rem;
+        font-family: 'Fabriga',sans-serif;
+    }
+    .carousel{
+        width: 100%;
+    }
+        /*HOME*/
+    .mainIndex0{
+        display: grid;
+        grid-template-rows: 0.20fr 0.75fr 0.25fr 0.10fr;
+        grid-template-columns: 1fr;
+    }
+    .divIndex2{
+        display: grid;
+        grid-template-rows: 0.25fr 1fr;
+        grid-template-columns: 1fr;
+    }   
+    .divIndex2__titulo{
+        font-size: 8mm;
+        padding-top: 1cm;
+        margin-bottom: 0cm;
+    }
+    .divIndex2__texto{
+        padding: 0.75cm 0.25cm 0.75cm 0.25cm; 
+        line-height: 0.75cm;
+        font-family: 'Heldane',serif;
+        text-align: center;
+        font-size: 4mm;
+        background-color: rgb(247, 247, 245);
+        margin-bottom: 0.25cm;
+    }
+    .divIndex3__texto{
+        text-align: center;
+        font-size: 6mm;
+        padding-top: 0cm;
+        padding-bottom: 1cm;
+        font-family: 'Heldane',serif;
+        font-weight: bold;
+        margin-bottom: 0cm;
+        animation-duration: 2s;
+        animation-name: fadeInDown;
+    }
+    .divIndex4{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(247, 247, 245);
+    }
+    .divIndex4__texto{
+        text-align: center;
+        padding-top: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    /*EVENTOS*/
+    .eventos{
+        font-size: 8.5mm;
+        padding-left: 0.5cm;
+        color: rgb(44, 44, 36);
+        box-sizing: content-box;
+        background-color: rgb(199, 199, 187);
+    }    
+    .section1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
+    
+    .eventos__img1{
+        height: 223px;
+    }
+    .eventos__img2{
+        height: 221.5px;
+    }
+    .eventos__img3{
+        height: 262px;
+    }
+    .gridContainer{
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "main main"
+            "footer footer";
+    }
+    /*CALENDARIO*/
+    .calendario__titulo{
+        font-size: 8.5mm;
+        padding-left: 0.5cm;
+        color: rgb(44, 44, 36);
+        box-sizing: content-box;
+        background-color: rgb(199, 199, 187);
+    }
+    .calendario__div{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        grid-template-columns: 1fr;
+        margin-top: 0.2cm;
+    }
+    .calendario__foto{
+        width: 415px;
+    }
+    .calendario__iframe{
+        width: 415px
+    }
+    /*CONTACTO*/
+    .contacto__titulo{
+        font-size: 8.5mm;
+        padding-left: 0.5cm;
+        color: rgb(44, 44, 36);
+        box-sizing: content-box;
+        background-color: rgb(199, 199, 187);
+    }
+    .contacto__section{
+        display: grid;
+        grid-template-rows: 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+    }
+    .formulario__fieldset{
+        margin-left: 0.5cm;
+        line-height: 0.45cm;
+        background-color: rgb(247, 247, 245);
+        width: 90%;
+        height: 16.8cm;
+        padding-right: 3cm;
+        padding-left: 0.5cm;
+        padding-top: 0.5cm;
+    }
+    .contacto__foto{
+        margin-right: 0.02cm;
+        margin-top: 1.25cm;
+        height: 7cm;
+        width: 10cm;
+        margin-left: 0.5cm;
+    }
+    /*INTEGRANTES*/
+    .integrantes{
+        font-size: 8.5mm;
+        padding-left: 0.5cm;
+        color: rgb(44, 44, 36);
+        box-sizing: content-box;
+        background-color: rgb(199, 199, 187);
+    }
+    /*explicación*/
+    .integrantes__explicacion{
+        padding: 0.5cm 0.25cm 1cm 0.25cm; 
+        line-height: 0.75cm;
+        font-family: 'Heldane',serif;
+        text-align: center;
+        font-size: 4mm;
+    }
+    /*img mesa chica*/
+    .mesaChica__imágenes0{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 1cm;
+    }
+    /*Cuerdas*/
+    .cuerdas__div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr;
+    }
+    .cuerdas__imágenes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    
+    
+}
+@media (min-width:768px) and (max-width:800px) {
+    /*GENERAL*/
+    .nav-link{
+        padding: 0.5rem;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        font-family: 'Fabriga',sans-serif;
+    }
+    .nav{
+        flex-wrap: nowrap;
+    }
+    ul{
+        margin-right: 1px !important;
+    }
+    /*HOME*/
+    .mainIndex0{
+        display: grid;
+        grid-template-rows: 0.20fr 0.75fr 0.25fr 0.10fr;
+        grid-template-columns: 1fr;
+    }
+    .divIndex2{
+        display: grid;
+        grid-template-rows: 0.25fr 1fr;
+        grid-template-columns: 1fr;
+    }   
+    .divIndex2__titulo{
+        font-size: 8mm;
+        padding-top: 1cm;
+        margin-bottom: 0cm;
+    }
+    .divIndex2__texto{
+        padding: 0.75cm 0.25cm 0.75cm 0.25cm; 
+        line-height: 0.75cm;
+        font-family: 'Heldane',serif;
+        text-align: center;
+        font-size: 4mm;
+        background-color: rgb(247, 247, 245);
+        margin-bottom: 0.25cm;
+    }
+    .divIndex3__texto{
+        text-align: center;
+        font-size: 6mm;
+        padding-top: 0cm;
+        padding-bottom: 1cm;
+        font-family: 'Heldane',serif;
+        font-weight: bold;
+        margin-bottom: 0cm;
+        animation-duration: 2s;
+        animation-name: fadeInDown;
+    }
+    .divIndex4{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(247, 247, 245);
+    }
+    .divIndex4__texto{
+        text-align: center;
+        padding-top: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    /*HOME*/
+    .mainIndex0{
+        display: grid;
+        grid-template-rows: 0.20fr 0.75fr 0.25fr 0.10fr;
+        grid-template-columns: 1fr;
+    }
+    .divIndex2{
+        display: grid;
+        grid-template-rows: 0.25fr 1fr;
+        grid-template-columns: 1fr;
+    }   
+    .divIndex2__titulo{
+        font-size: 8mm;
+        padding-top: 1cm;
+        margin-bottom: 0cm;
+    }
+    .divIndex2__texto{
+        padding: 0.5cm 0.25cm 0.5cm 0.25cm; 
+        line-height: 0.75cm;
+        font-family: 'Heldane',serif;
+        text-align: center;
+        font-size: 4mm;
+        background-color: rgb(247, 247, 245);
+        margin-bottom: 0.25cm;
+    }
+    .divIndex3__texto{
+        text-align: center;
+        font-size: 6mm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        font-family: 'Heldane',serif;
+        font-weight: bold;
+        margin-bottom: 0cm;
+        animation-duration: 2s;
+        animation-name: fadeInDown;
+    }
+    .divIndex4{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(247, 247, 245);
+    }
+    .divIndex4__texto{
+        text-align: center;
+        padding-top: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    
+    /*EVENTOS*/
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .card{
+        width: 100%;
+    }
+    .eventos__img1{
+        height: 423.5px;
+    }
+    .eventos__img2{
+        height: 420px;
+    }
+    .eventos__img3{
+        height: 500px;
+    }
+    /*CALENDARIO*/
+    .calendario__titulo{
+        font-size: 10mm;
+        padding-left: 0.5cm;
+        font-weight: bold;
+        color: rgb(44, 44, 36);
+        box-sizing: content-box;
+        background-color: rgb(199, 199, 187);
+    }
+    .calendario__div{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin-top: 0.2cm;
+    }
+    /*CONTACTO*/
+    .contacto__section{
+        display: grid;
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-columns: 1fr;
+    }
+    .formulario__fieldset{
+        margin-left: 0.5cm;
+        line-height: 0.45cm;
+        background-color: rgb(247, 247, 245);
+        width: 95%;
+        height: 16.8cm;
+        padding-right: 3cm;
+        padding-left: 6cm;
+        padding-top: 0.5cm;
+    }
+    .contacto__foto{
+        margin-right: 0.02cm;
+        margin-top: 0.25cm;
+        height: 12cm;
+        width: 95%;
+        margin-left: 0.5cm;
+    }
+    /*INTEGRANTES*/
+    /*img mesa chica*/
+    .mesaChica__imágenes0{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 1cm;
+    }
+    /*Cuerdas*/
+    .cuerdas__div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr;
+    }
+    .cuerdas__imágenes{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (min-width:800px) {
+    .section1{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .navbar{
+        flex-wrap:nowrap;
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+}
