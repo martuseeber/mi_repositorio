@@ -1,0 +1,116 @@
+@media (min-width: 10px) and (max-width:505px) {
+    .nav-link{
+        font-weight:lighter;
+        letter-spacing: 0.5px;
+        font-size: 0.8rem;
+        font-family: 'Fabriga',sans-serif;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    /*HOME*/
+    .mainIndex0{
+        display: grid;
+        grid-template-rows: 0.1fr 0.75fr 0.35fr 0.15fr;
+        grid-template-columns: 1fr; 
+    }
+    .divIndex2{
+        display: flex;
+        flex-direction: column;
+    }
+    .divIndex2__titulo{
+        text-align: center;
+        font-size: 12mm;
+        padding-top: 0cm;
+        font-family: 'Heldane',serif;
+        color: rgb(116, 116, 98);
+        background-color: rgb(247, 247, 245);
+        margin-bottom: 0cm;
+    }
+    .divIndex2__texto{
+        padding: 0.75cm 0.25cm 0.75cm 0.25cm; 
+        line-height: 0.75cm;
+        font-family: 'Heldane',serif;
+        text-align: center;
+        font-size: 6mm;
+        background-color: rgb(247, 247, 245);
+        margin-bottom: 0.25cm;
+    }
+    .divIndex3__texto{
+        text-align: center;
+        font-size: 7mm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+        font-family: 'Heldane',serif;
+        font-weight:bold;
+        margin-bottom: 0cm;
+        animation-duration: 2s;
+        animation-name: fadeInDown;
+    }
+    .divIndex4{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr;
+        background-color: rgb(247, 247, 245);
+    }
+    .divIndex4__texto{
+        text-align: center;
+        padding-top: 0.5cm;
+        margin-bottom: 0.5cm;
+    }
+    /*INTEGRANTES*/
+    .integrantes{
+        font-size: 10mm;
+        padding-left: 0.5cm;
+        color: rgb(44, 44, 36);
+        box-sizing: content-box;
+        background-color: rgb(199, 199, 187);
+    }
+/*explicación*/
+    .integrantes__explicacion{
+        padding: 0.5cm 0.35cm 1cm 0.35cm; 
+        line-height: 0.75cm;
+        font-family: 'Heldane',serif;
+        text-align: center;
+        font-size: 4mm;
+    }
+/*titulos*/
+    .mesaChica__titulo{
+        font-size: 8mm;
+        text-align: center;
+        color: rgb(68, 68, 56);
+        background-color: rgb(247, 247, 245);
+        box-sizing: border-box;
+    }
+    .cuerdas__titulo{
+        font-size: 8mm;
+        text-align: center;
+        color: rgb(68, 68, 56);
+        background-color: rgb(247, 247, 245);
+        box-sizing: border-box;
+    }
+/*img mesa chica*/
+    .mesaChica__imágenes0{
+        flex-wrap: wrap;
+        width: 135px;
+        margin: 0cm;
+    }
+/*Cuerdas*/
+    .cuerdas__subtitulo{
+        font-size: 6.75mm;
+        text-align:center;
+        color: rgb(78, 78, 64);
+        padding-top: 1.5cm;
+    }
+    .cuerdas__div{
+        display: flex;
+        flex-direction: column;
+    }
+    .cuerdas__imágenes{
+        flex-wrap: wrap;
+        width: 135px;
+        margin: 0cm;
+    }
+}

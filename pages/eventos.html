@@ -7,6 +7,7 @@
     <meta name="keywords"  content="coro, colegio, director, integrantes, eventos, cantantes, instrumentos, canciones">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">   
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mobilefirst.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap" rel="stylesheet">
@@ -14,39 +15,38 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light" aria-label="navbar" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" title="Logo" href="index.Seeber.html"><img src="../img/logo.jpg" width="37%" class="logo" alt="logo de la página"></a>
-                <div>
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.Seeber.html">home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./eventos.html">eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./integrantes.html">integrantes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./calendario.html">calendario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">contacto</a>
-                        </li>
-                    </ul>                
+                <a class="navbar-brand" href="../index.html">
+                    <img class="loguito" src="../img/logo.jpg" alt="logo" width="175" >
+                </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./eventos.html">Eventos</a>
+                        <a class="nav-link active" aria-current="page" href="./integrantes.html">Integrantes</a>
+                        <a class="nav-link active" aria-current="page" href="./calendario.html">Calendario</a>
+                        <a class="nav-link active" aria-current="page"  href="./contacto.html">Contacto</a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <h2 class="eventos">Eventos</h2>
-        <section class="section1">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Via Crucis</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <h1 class="eventos">Eventos</h1>
+        <div class="card mb-3 card_1">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <video src="../img/Via Crucis-Cristo Reina.MP4" class="img-fluid rounded-start" alt="El coro participando del Via Crucis" controls height="400">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">Via Crucis</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         <br>Magni non nulla illum nihil rem vitae, eaque, reprehenderit voluptates necessitatibus 
                         <br>eius iste,obcaecati rerum? Autem necessitatibus quia quis repellat perferendis iure. 
                         <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, illo ut. Eius animi 
@@ -54,56 +54,58 @@
                         <br>a aliquid voluptatem iste magni. Repellendus, aliquam! Lorem ipsum dolor, sit amet 
                         <br>consectetur adipisicing elit. Modi fuga mollitia nam ullam aut quis reiciendis vero 
                         <br>aspernatur ducimus! Sit repudiandae dolores neque perferendis <br>delectus alias architecto 
-                        modi ullam eaque?    
-                    </p>
+                        modi ullam eaque?
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div>
-                <video src="../img/Via Crucis-Cristo Reina.MP4" class="eventos__img1" alt="El coro en el Via Crucis" height="400" controls>
-            </div>
-        </section>
-        <section class="section1">
-            <div>
-                <video src="../img/Coropalooza.mov" class="eventos__img2" alt="El coro cantando en el Coropalooza" height="445" controls>
-            </div>
-            <div class="card" style="background-color: rgb(247, 247, 245);">
-                <div class="card-body">
-                    <h5 class="card-title">Coropalooza</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        <br>Magni non nulla illum nihil rem vitae, eaque, reprehenderit voluptates necessitatibus 
-                        <br>eius iste,obcaecati rerum? Autem necessitatibus quia quis repellat perferendis iure. 
-                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, illo ut. Eius animi 
-                        <br>placeat facilis sint reiciendis aliquid repudiandae laborum? Quas dignissimos pariatur
-                        <br>a aliquid voluptatem iste magni. Repellendus, aliquam! Lorem ipsum dolor, sit amet 
-                        <br>consectetur adipisicing elit. Modi fuga mollitia nam ullam aut quis reiciendis vero 
-                        <br>aspernatur ducimus! Sit repudiandae dolores neque perferendis <br>delectus alias architecto 
-                        modi ullam eaque?    
-                    </p>
+        </div>
+        <div class="card mb-3 card_2 coropalooza">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">Coropalooza</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <br>Magni non nulla illum nihil rem vitae, eaque, reprehenderit voluptates necessitatibus 
+                            <br>eius iste,obcaecati rerum? Autem necessitatibus quia quis repellat perferendis iure. 
+                            <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, illo ut. Eius animi 
+                            <br>placeat facilis sint reiciendis aliquid repudiandae laborum? Quas dignissimos pariatur
+                            <br>a aliquid voluptatem iste magni. Repellendus, aliquam! Lorem ipsum dolor, sit amet 
+                            <br>consectetur adipisicing elit. Modi fuga mollitia nam ullam aut quis reiciendis vero 
+                            <br>aspernatur ducimus! Sit repudiandae dolores neque perferendis <br>delectus alias architecto 
+                            modi ullam eaque?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <video src="../img/Coropalooza.mov" class="img-fluid rounded-start" alt="El coro en el Coropalooza" controls>
                 </div>
             </div>
-        </section>
-        <section class="section1">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Noche de los Coros</h5>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        <br>Magni non nulla illum nihil rem vitae, eaque, reprehenderit voluptates necessitatibus 
-                        <br>eius iste,obcaecati rerum? Autem necessitatibus quia quis repellat perferendis iure. 
-                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, illo ut. Eius animi 
-                        <br>placeat facilis sint reiciendis aliquid repudiandae laborum? Quas dignissimos pariatur
-                        <br>a aliquid voluptatem iste magni. Repellendus, aliquam! Lorem ipsum dolor, sit amet 
-                        <br>consectetur adipisicing elit. Modi fuga mollitia nam ullam aut quis reiciendis vero 
-                        <br>aspernatur ducimus! Sit repudiandae dolores neque perferendis <br>delectus alias architecto 
-                        modi ullam eaque?    
-                    </p>
+        </div>
+        <div class="card mb-3 card_3">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="../img/noche.de.los.coros.jpg" class="img-fluid rounded-start" alt="El coro en Chacabuco">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h3 class="card-title">Noche de los Coros</h3>
+                        <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <br>Magni non nulla illum nihil rem vitae, eaque, reprehenderit voluptates necessitatibus 
+                            <br>eius iste,obcaecati rerum? Autem necessitatibus quia quis repellat perferendis iure. 
+                            <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, illo ut. Eius animi 
+                            <br>placeat facilis sint reiciendis aliquid repudiandae laborum? Quas dignissimos pariatur
+                            <br>a aliquid voluptatem iste magni. Repellendus, aliquam! Lorem ipsum dolor, sit amet 
+                            <br>consectetur adipisicing elit. Modi fuga mollitia nam ullam aut quis reiciendis vero 
+                            <br>aspernatur ducimus! Sit repudiandae dolores neque perferendis <br>delectus alias architecto 
+                            modi ullam eaque?
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="../img/noche.de.los.coros.jpg" class="eventos__img3" alt="Participación del coro en el Via Crucis" height="467" controls>
-            </div>
-        </section>
+        </div>
     </main>
     <footer>
         <a title="Instagram" href="https://www.instagram.com/corosantoto/?hl=es-la" target="blank" class="linkRedes"><img src="../img/instagram.png" alt="Instagram" width="50" height="50" class="linkRedes"></a>    
