@@ -7,10 +7,6 @@ body{
     width: 100%;
     font-family: 'Heldane',serif;;
 }
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.55);
-    border-color: rgba(0,0,0,.1)
-}
 .navbar-collapse{
     justify-content: flex-end;
 }
@@ -28,7 +24,7 @@ body{
 }
 
 .nav-link:hover {
-    color: rgb(132, 162, 218);
+    color: rgb(132, 162, 218)!important;
 }
 footer{
     justify-items: end;
@@ -149,7 +145,6 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 1cm;
 }
 /*Cuerdas*/
 .cuerdas__subtitulo{
@@ -160,15 +155,16 @@ footer{
     padding-top: 1.5cm;
 }
 .cuerdas__div{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 0.75fr 1fr;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 .cuerdas__imágenes{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 1cm;
 }
 
 /*CALENDARIO*/
@@ -183,8 +179,11 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0.2cm;
+}
+.calendario__foto{
+    width: 765px;
 }
 /*CONTACTO*/
 .contacto__titulo{
@@ -199,6 +198,10 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.contacto-form{
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
 }
 .formulario__fieldset{
     margin-left: 0.5cm;

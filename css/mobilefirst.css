@@ -1,116 +1,171 @@
-@media (min-width: 10px) and (max-width:505px) {
-    .nav-link{
-        font-weight:lighter;
-        letter-spacing: 0.5px;
-        font-size: 0.8rem;
-        font-family: 'Fabriga',sans-serif;
-    }
-    .nav{
+@media (max-width:336px) {
+    .cuerdas__div {
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;}
+    /*CALENDARIO*/
+    .calendario__foto{
+        height: 300px;
+        width: 320px;
     }
-    /*HOME*/
-    .mainIndex0{
-        display: grid;
-        grid-template-rows: 0.1fr 0.75fr 0.35fr 0.15fr;
-        grid-template-columns: 1fr; 
+    .calendario__iframe{
+        height: 350px;
+        width: 320px;
     }
-    .divIndex2{
-        display: flex;
-        flex-direction: column;
-    }
-    .divIndex2__titulo{
-        text-align: center;
-        font-size: 12mm;
-        padding-top: 0cm;
-        font-family: 'Heldane',serif;
-        color: rgb(116, 116, 98);
-        background-color: rgb(247, 247, 245);
-        margin-bottom: 0cm;
-    }
-    .divIndex2__texto{
-        padding: 0.75cm 0.25cm 0.75cm 0.25cm; 
-        line-height: 0.75cm;
-        font-family: 'Heldane',serif;
-        text-align: center;
-        font-size: 6mm;
-        background-color: rgb(247, 247, 245);
-        margin-bottom: 0.25cm;
-    }
-    .divIndex3__texto{
-        text-align: center;
-        font-size: 7mm;
-        padding-top: 1cm;
-        padding-bottom: 1cm;
-        font-family: 'Heldane',serif;
-        font-weight:bold;
-        margin-bottom: 0cm;
-        animation-duration: 2s;
-        animation-name: fadeInDown;
-    }
-    .divIndex4{
-        display: grid;
-        grid-template-columns: 0.5fr 0.5fr;
-        grid-template-rows: 1fr;
-        background-color: rgb(247, 247, 245);
-    }
-    .divIndex4__texto{
-        text-align: center;
-        padding-top: 0.5cm;
-        margin-bottom: 0.5cm;
-    }
-    /*INTEGRANTES*/
-    .integrantes{
-        font-size: 10mm;
-        padding-left: 0.5cm;
-        color: rgb(44, 44, 36);
-        box-sizing: content-box;
-        background-color: rgb(199, 199, 187);
-    }
-/*explicación*/
-    .integrantes__explicacion{
-        padding: 0.5cm 0.35cm 1cm 0.35cm; 
-        line-height: 0.75cm;
-        font-family: 'Heldane',serif;
-        text-align: center;
-        font-size: 4mm;
-    }
-/*titulos*/
-    .mesaChica__titulo{
-        font-size: 8mm;
-        text-align: center;
-        color: rgb(68, 68, 56);
-        background-color: rgb(247, 247, 245);
-        box-sizing: border-box;
-    }
-    .cuerdas__titulo{
-        font-size: 8mm;
-        text-align: center;
-        color: rgb(68, 68, 56);
-        background-color: rgb(247, 247, 245);
-        box-sizing: border-box;
-    }
-/*img mesa chica*/
-    .mesaChica__imágenes0{
+    .calendario__div{
         flex-wrap: wrap;
-        width: 135px;
-        margin: 0cm;
     }
-/*Cuerdas*/
-    .cuerdas__subtitulo{
-        font-size: 6.75mm;
-        text-align:center;
-        color: rgb(78, 78, 64);
-        padding-top: 1.5cm;
+    
+/*CONTACTO*/
+    .contacto__foto{    
+        height: 220px;
+        width: 300px;
     }
-    .cuerdas__div{
+    .formulario__fieldset{
+        margin-left:0.3cm;
+        padding-right: 1.2cm;
+    }
+    .cuerdas__div {
         display: flex;
-        flex-direction: column;
-    }
-    .cuerdas__imágenes{
         flex-wrap: wrap;
-        width: 135px;
-        margin: 0cm;
+        justify-content: center;
+        justify-content: space-evenly;
     }
+}
+@media (min-width:360px) and (max-width:416px) {
+    /*CALENDARIO*/
+    .calendario__foto{
+        height: 300px;
+        width: 360px;
+    }
+    .calendario__iframe{
+        height: 300px;
+        width: 360px;
+    }
+    .calendario__div{
+        flex-wrap: wrap;
+    }
+    .cuerdas__div {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;}
+
+/*CONTACTO*/
+    .contacto__foto{    
+        height: 285px;
+        width: 360px;
+    }
+}
+@media (min-width:420px) and (max-width:769px) {
+    /*CONTACTO*/
+    .contacto__foto{    
+        height: 480px;
+        width: 720px;
+        justify-items: center;
+    }
+    .formulario__fieldset{
+        padding-right: 7cm;
+        padding-left: 5cm;
+        width: 100%;
+        margin-left: 0cm;
+        height: auto;
+    }
+    /*CALENDARIO*/
+    .calendario__foto{
+        height: 600px;
+        width: 750px;
+    }
+    .calendario__iframe{
+        height: 600px;
+        width: 750px;
+    }
+    .calendario__div{
+        flex-wrap: wrap;
+    }
+    .cuerdas__div {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:770px) and (max-width:1025px) {
+        /*CONTACTO*/
+        .contacto__foto{    
+            height: 600px;
+            width: 1000px;
+            justify-items: center;
+        }
+        .formulario__fieldset{
+            padding-right: 10cm;
+            padding-left: 10cm;
+            width: 100%;
+            margin-left: 0cm;
+            height: auto;
+        }
+        /*CALENDARIO*/
+        .calendario__foto{
+            height: 800px;
+            width: 1000px;
+        }
+        .calendario__iframe{
+            height: 800px;
+            width: 1000px;
+        }
+        .calendario__div{
+            flex-wrap: wrap;
+        }
+        .cuerdas__div {
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }    
+}
+@media (min-width:539px)and (max-width:541px) {
+    .calendario__foto{
+        height: 460px;
+        width: 540px;
+    }
+    .calendario__iframe{
+        height: 500px;
+        width: 540px;
+    }
+    .contacto__foto{    
+        height: 400px;
+        width: 540px;
+        justify-items: center;
+    }
+}
+@media (min-width:1008px) and (max-width:1524px) {
+    .calendario__div{
+        flex-wrap: wrap;
+    }
+    .calendario__foto{
+        height: 750px;
+        width: 1000px;
+    }
+    .calendario__iframe{
+        height: 750px;
+        width: 1000px;
+    }
+
+}
+@media (min-width:747px) and (max-width:1000px) {
+    .calendario__foto{
+        height: 700px;
+        width: 800px;
+    }
+    .calendario__iframe{
+        height: 700px;
+        width: 800px;
+    }
+    .contacto__foto{    
+        height: 625px;
+        width: 800px;
+        justify-items: center;
+    }
+
 }
